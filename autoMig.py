@@ -2,10 +2,10 @@
 print("\n###Services###\n")
 
 #controller.js onde estão as chamadas dos Rests
-arqCtrl = open('..\\configuracaoSistemaCtrl.js', 'r')
+arqCtrl = open('./Ctrl.js', 'r')
 
 #todas as factory/services.js do módulo 'app.services'
-arqService = open('..\\allServices.js', 'r')
+arqService = open('./allServices.js', 'r')
 
 #route funcionalidade / domínio
 #
