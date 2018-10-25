@@ -23,6 +23,7 @@ conteudoCtrl = arqCtrl.read()\
                     .replace(';', ',').replace(' ', '')\
                     .split(',')
 
+#Removendo os alertsServices
 for n, item in enumerate(conteudoCtrl):
     if "Service." in item:
         serviceTemp = item.strip()
